@@ -1,0 +1,30 @@
+.scroll-view {
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal {
+  width: 100vw;
+  height: 400px;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+
+.item {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.button {
+  border: 1px solid red;
+  margin: 12px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
